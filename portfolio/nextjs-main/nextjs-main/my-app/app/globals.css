@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  background: #303030;
+  color: white;
+}
+.title {
+  text-align: center;
+  margin-top: 150px;
+}
+.title-sub {
+  text-align: center;
+}
+.음식 {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+.navbar {
+    background: white;
+    padding: 20px;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.crt-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid red;
+  line-height: 0px;
+} 
