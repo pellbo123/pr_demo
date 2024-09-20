@@ -1,9 +1,8 @@
-import {userEffect} from "react"
+import { useEffect } from "react";
 
 export default function Duduge() {
-userEffect(() => {
-    window.location.href = '/duduge/index.html'
-})
+    useEffect(()=>{
+        window.location.href = '/duduge/MoleHunt.html'
+    })
     return null;
   }
-  
